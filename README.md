@@ -6,6 +6,10 @@
 
 This repository contains the following add-ons:
 
+### [Bitfocus Companion](./bitfocus-companion)
+
+_Versatile shotbox for everybody._
+
 ### [Homebridge](./homebridge)
 
 _HomeKit support for the impatient._

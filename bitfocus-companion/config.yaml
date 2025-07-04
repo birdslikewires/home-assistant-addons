@@ -1,0 +1,41 @@
+version: '4.0.2-3'
+slug: bitfocus_companion
+name: Bitfocus Companion
+description: Versatile shotbox for everybody
+url: https://github.com/birdslikewires/bitfocus-companion-hass-addon
+arch:
+  - aarch64
+  - amd64
+boot: auto
+webui: "http://[HOST]:[PORT:8000]/"
+panel_icon: "mdi:remote"
+
+usb: true
+devices:
+  - /dev/bus/usb
+  - /dev/hidraw0
+  - /dev/hidraw1
+  - /dev/usb/hiddev0
+  - /dev/usb/hiddev1
+
+map:
+  - type: addon_config
+    read_only: false
+
+ports:
+  8000/tcp: 8000
+  16622/tcp: 16622
+  16623/tcp: 16623
+  28492/tcp: 28492
+
+ports_description:
+  8000/tcp: Web interface
+  16622/tcp: Satellite API
+  16623/tcp: WebSocket (Elgato Plugin)
+  28492/tcp: Additional port
+
+build_args:
+  BUILD_ARCH: '|arch|'
+
+startup: application
+init: false

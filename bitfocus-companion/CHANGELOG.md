@@ -1,5 +1,8 @@
 # Changelog
 
+## 4.0.3-1
+- Updated to Companion v4.0.3.
+
 ## 4.0.2-3
 - Migrated to new repo.
 

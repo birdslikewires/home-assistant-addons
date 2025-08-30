@@ -10,7 +10,7 @@ arch:
 webui: http://[HOST]:[PORT:8581]
 
 backup_exclude:
-- node_modules
+  - node_modules
 
 map:
   - type: addon_config

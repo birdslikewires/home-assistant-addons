@@ -9,6 +9,8 @@ arch:
   - amd64
 webui: http://[HOST]:[PORT:631]
 
+usb: true
+
 map:
   - type: addon_config
     read_only: false
@@ -17,7 +19,9 @@ host_network: true
 
 ports:
   631/tcp: 631
+  631/udp: 631
 ports_description:
   631/tcp: CUPS
+  631/udp: CUPS
 
 init: false

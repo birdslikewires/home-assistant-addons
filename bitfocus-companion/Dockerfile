@@ -1,8 +1,8 @@
 ARG BUILD_ARCH=aarch64
 
 # Select the correct image based on the architecture
-FROM ghcr.io/bitfocus/companion/companion:4.1.1-8447-stable-d48898e1d9@sha256:6759aecc6c8f1b93d6e28ad4b3e54be9c3e19005ebc3302f1464ffe5471cc300 AS aarch64_image
-FROM ghcr.io/bitfocus/companion/companion:4.1.1-8447-stable-d48898e1d9@sha256:6398ab4002c1fc06ad46922445db1ed2dc065e3e052992ed282523e4e95e03d6 AS amd64_image
+FROM ghcr.io/bitfocus/companion/companion:4.1.0-8434-stable-094ffba324@sha256:74c2b190dcda336784137de51b87840bec01b2ccac5d689ed0bdec97c4db6358 AS aarch64_image
+FROM ghcr.io/bitfocus/companion/companion:4.1.0-8434-stable-094ffba324@sha256:115384cf0a104f121bc8120bac0c7e3a9ba610c55115d3534cdf5a0ed9d3bc29 AS amd64_image
 
 # The actual image used
 FROM ${BUILD_ARCH}_image

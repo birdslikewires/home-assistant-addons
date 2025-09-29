@@ -1,6 +1,8 @@
 ARG BUILD_ARCH=aarch64
 
-FROM ghcr.io/bitfocus/companion/companion:4.0.3-8089-stable-b2774d6045@sha256:a48989907ba07ed4acc3a6ee291745ff0162bc75c24aaa069addf03f89b037cc AS aarch64_image
+#FROM ghcr.io/bitfocus/companion/companion:4.0.3-8089-stable-b2774d6045@sha256:a48989907ba07ed4acc3a6ee291745ff0162bc75c24aaa069addf03f89b037cc AS aarch64_image
+FROM ghcr.io/bitfocus/companion/companion:v4.0.3 AS aarch64_image
+
 FROM ${BUILD_ARCH}_image
 
 USER root

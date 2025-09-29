@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0.3-2
+- Only targeting ARM as I have no means of reasonably testing AMD64.
+- Check for a simplified way of specifying image which may not work.
+
 ## 4.0.3-1
 - Updated to Companion v4.0.3.
 

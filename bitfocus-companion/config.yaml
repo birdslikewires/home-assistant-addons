@@ -5,7 +5,6 @@ description: Versatile shotbox for everybody
 url: https://github.com/birdslikewires/bitfocus-companion-hass-addon
 arch:
   - aarch64
-  - amd64
 boot: auto
 webui: "http://[HOST]:[PORT:8000]/"
 panel_icon: "mdi:remote"

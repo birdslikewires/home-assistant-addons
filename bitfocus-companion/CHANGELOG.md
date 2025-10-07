@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.1.1-1
+- Updated to Companion v4.1.1.
+- Copied avdmr's solution to the run.sh bug.
+- Simplified the Dockerfile in a way that hopefully doesn't break things.
+
 ## 4.0.3-2
 - Only targeting ARM as I have no means of reasonably testing AMD64.
 - Check for a simplified way of specifying image which may not work.

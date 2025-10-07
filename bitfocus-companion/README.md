@@ -15,6 +15,6 @@ You may need to refresh the repository list by clicking the three-dots menu and 
 Once it appears in your add-on list or search results, simply click it and choose "Install".
 ## Support
 
-This repository was forked from other peoples' work for my own purposes. No support is offered, but you're more than welcome to use this or give me a nudge if I've missed an updated version. I'll likely only be checking occasionally when I need to make an update.
+This repository was originally forked from [avdmr/bitfocus-companion-hass-addon](https://github.com/avdmr/bitfocus-companion-hass-addon) for my own purposes. No support is offered, but you're more than welcome to use this or give me a nudge if I've missed an updated version. I'll likely only be checking occasionally when I need to make an update.
 
 Or just fork this for your own purposes too, of course!

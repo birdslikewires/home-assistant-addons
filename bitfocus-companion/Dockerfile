@@ -1,4 +1,4 @@
-ARG COMP_VER=4.1.1
+ARG COMP_VER=4.1.3
 
 FROM ghcr.io/bitfocus/companion/companion:v${COMP_VER} AS base
 FROM base

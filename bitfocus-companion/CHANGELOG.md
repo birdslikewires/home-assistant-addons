@@ -1,5 +1,8 @@
 # Changelog
 
+## 4.1.3-1
+- Updated to Companion v4.1.3.
+
 ## 4.1.1-1
 - Updated to Companion v4.1.1.
 - Copied avdmr's solution to the run.sh bug.

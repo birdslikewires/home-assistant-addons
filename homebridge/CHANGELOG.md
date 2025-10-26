@@ -1,5 +1,8 @@
 # Changelog
 
+## 2025-10-22
+- Updated the Docker container.
+
 ## 2025-09-28
 - Updated the Docker container.
 

@@ -1,5 +1,8 @@
 # Changelog
 
+## 4.1.5-1
+- Updated to Companion v4.1.5.
+
 ## 4.1.4-1
 - Updated to Companion v4.1.4.
 

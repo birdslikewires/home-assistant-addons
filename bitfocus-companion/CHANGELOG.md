@@ -1,5 +1,8 @@
 # Changelog
 
+## 4.1.5-2
+- Bailed on a failed update to v4.2.0.
+
 ## 4.1.5-1
 - Updated to Companion v4.1.5.
 

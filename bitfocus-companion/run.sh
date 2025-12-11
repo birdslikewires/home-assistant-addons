@@ -22,4 +22,4 @@ fi
 chown -R companion: /companion
 export COMPANION_CONFIG_BASEDIR="/companion"
 
-exec /docker-entrypoint.sh
+exec /docker-entrypoint.sh "$@"

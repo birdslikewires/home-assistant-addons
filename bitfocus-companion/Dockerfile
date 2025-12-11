@@ -8,7 +8,5 @@ USER root
 COPY run.sh /run_companion.sh
 RUN chmod +x /run_companion.sh
 
-USER companion
-
 # Change the entry point
 ENTRYPOINT ["/run_companion.sh"]

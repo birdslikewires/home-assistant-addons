@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.2.4-1
+- Copied avdmr's homework again. :)
+- Updated to Companion v4.2.4.
+
 ## 4.1.5-2
 - Bailed on a failed update to v4.2.0.
 

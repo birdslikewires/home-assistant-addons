@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-03-02
+- Updated container to release 2026-02-25.
+
 ## 2025-10-22
 - Updated the Docker container.
 

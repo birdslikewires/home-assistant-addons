@@ -1,5 +1,8 @@
 # Changelog
 
+## 4.2.5-1
+- Updated to Companion v4.2.5.
+
 ## 4.2.4-1
 - Copied avdmr's homework again. :)
 - Updated to Companion v4.2.4.
